@@ -77,4 +77,4 @@ Any update using current ACS data but would continue to use “People Point” 3
 
 We did this by looking at Census Block Groups with no People Points (representing new construction in greenfield or brownfield areas) and People Points in areas reporting no population (less common, uncertain of cause). In our specific cases, there was not substantial evidence of new construction in the locations we cared about, though there was such evidence in other areas around Southern California. And there might be more divergence statewide.
 
-The best path forward in the future would be to replace the Meta data with another source of high resolution population data that is still regularly updated. 
+The best path forward in the future would be to replace the Meta data with another source of high resolution population data that is still regularly updated. The 90m [LandScan US](https://landscan.ornl.gov/about) data product is a likely replacement, though it has not been updated since 2021.
