@@ -2,7 +2,7 @@
 
 ## Accessing the data
 
-* Download [GDB with PSM data](FINAL_DATA.gdb.zip)  
+* Download [GDB with PSM data](data/2025/FINAL_DATA.gdb.zip)  
 * Layer name: Grid\_SoCal
 
 Note this file also includes a layer called “FbPts\_SoCal” that is the raw data used to estimate who lives where. In principle, this could be used to create alternative estimates of populations near parks or within other areas of interest. See the [readme] for more backgorund about the data and methods.
