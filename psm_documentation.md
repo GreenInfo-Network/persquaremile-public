@@ -2,7 +2,7 @@
 
 ## Accessing the data
 
-* Download [GDB with PSM data](https://drive.google.com/file/d/1wRh-kwsfOluzV5YxHZInbBKLh2LhgxOd/view?usp=drive_link)  
+* Download [GDB with PSM data](FINAL_DATA.gdb.zip)  
 * Layer name: Grid\_SoCal
 
 Note this file also includes a layer called “FbPts\_SoCal” that is the raw data used to estimate who lives where. In principle, this could be used to create alternative estimates of populations near parks or within other areas of interest. See the [readme] for more backgorund about the data and methods.
@@ -24,7 +24,7 @@ Note this file also includes a layer called “FbPts\_SoCal” that is the raw d
 
 ## **Source Data**
 
-The data used in the tool consisted of:
+The data used in the analysis consisted of:
 
 * Data for species biodiversity from California Department of Fish and Wildlife’s Areas of Conservation Emphasis (ACE) **Combined Biodiversity Summary**  
   * About this data: [Areas of Conservation Emphasis (ACE)](https://wildlife.ca.gov/Data/Analysis/ACE)   
@@ -57,9 +57,6 @@ The data used in the tool consisted of:
   * Grid cells are tagged with the plurality value for ACE (as defined above), so the cell is tagged with the score that has the highest percentage in that cell.  
   * Grid cells are also attributed with the population of people who have no park within a halfmile, based on halfmile Euclidean buffers around parks in CPAD 2024b (defined above) and using the latest population and household data from the American Community Survey 5 year average (2019-2023).  
   * Grid cells contain variant values of households that lack a park within a halfmile and are within a DAC/SDAC or above 75th percentile of CalEnviroscreen, as defined above.  
-* Parcel data  
-  * Since this project is funded by WCB/CNRA, GreenInfo used parcel data accessible through our work with CNRA for the seven counties in Southern California. Unfortunately, license restrictions prevent us from sharing this data.  
-  * To limit the number of parcels used in the application, we selected parcels that are within 1 mile of the PerSquareMile grids that represent areas with above average biodiversity and people who lack parks (spbiornkeco \>= 4 AND pop\_ngbdoa\_eq0\>0 ). To mitigate issues with data size, we also limited to parcels that are 5 acres in size or larger, though this is likely to change due to user feedback.
 
 ## Example PerSquareMile Filters
 

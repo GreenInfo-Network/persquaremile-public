@@ -52,7 +52,7 @@ This allowed the OLIN team to go back to the steering committee and show these r
 Once we had the 36 grid cells, we were then able to use schools and parcel data to see what opportunities there might be within those grid cells. This step was very compelling for folks in understanding that every grid cell had some opportunity that could increase access without undertaking expensive land acquisition.
 
 ## Read methods and download some data!
-
+[Methods documentation](psm_documentation.md), with link to download a sample dataset.
 
 ## Known Challenges
 
