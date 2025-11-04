@@ -11,6 +11,9 @@ PerSquareMile is a joint production of Jon Christensen at UCLA and GreenInfo Net
 
 We developed a Memorandum of Understanding specifying that the work was co-owned by GreenInfo and Jon Christensen. We agreed in 2025 to open-source the methods and data, while continuing to advocate for using the methods in our own projects. This is similar to the successful approach GreenInfo Network has taken with the California Protected Areas Database (https://calands.org) and the California School Campus Database (https://californiaschoolcampusdatabase.org)
 
+## Read methods and download some data!
+[Methods documentation](psm_documentation.md), with link to download a sample dataset.
+
 ## Uses of PSM
 
 ### The first use case: Estimating statewide park development needs
@@ -50,9 +53,6 @@ The simplicity of the PSM data allowed us to create flexible Google Sheets workb
 This allowed the OLIN team to go back to the steering committee and show these results and get guidance from them on what to prioritize. Their direction was a 25% reduction in the SDAC or CES75+ population who either lacks a park within a halfmile or lives in an area with less than 3 acres PPK.
 
 Once we had the 36 grid cells, we were then able to use schools and parcel data to see what opportunities there might be within those grid cells. This step was very compelling for folks in understanding that every grid cell had some opportunity that could increase access without undertaking expensive land acquisition.
-
-## Read methods and download some data!
-[Methods documentation](psm_documentation.md), with link to download a sample dataset.
 
 ## Known Challenges
 
